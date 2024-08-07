@@ -87,7 +87,7 @@ mf_dft.run(
     max_cycle=50,
     conv_tol=1e-9,
     diis_start_cycle=0,
-    diis_space=8,
+    diis_space=2,
 )
 # Calculate the Shannon entropy at each step
 dft_entropies = []
